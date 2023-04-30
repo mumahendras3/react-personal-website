@@ -1,10 +1,9 @@
-import MainNavbar from "./components/MainNavbar"
+import { RouterProvider } from 'react-router-dom';
+import router from './router';
 
 function App() {
   return (
-    <>
-      <MainNavbar />
-    </>
+    <RouterProvider router={router} />
   )
 }
 

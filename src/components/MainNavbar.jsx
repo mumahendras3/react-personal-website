@@ -1,6 +1,7 @@
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
+import { NavLink } from 'react-router-dom';
 
 const logoSideDimension = 55;
 
@@ -20,9 +21,30 @@ export default function MainNavbar() {
         <Navbar.Toggle aria-controls="main-navbar-nav" />
         <Navbar.Collapse id="main-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Portofolio</Nav.Link>
-            <Nav.Link href="#pricing">About</Nav.Link>
+            <NavLink
+              className={({ isActive }) =>
+                `text-center nav-link${isActive ? ' active' : ''}`
+              }
+              to="/" href="#home"
+            >
+              Home
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `text-center nav-link${isActive ? ' active' : ''}`
+              }
+              to="/portfolio" href="#features"
+            >
+              Portfolio
+            </NavLink>
+            <NavLink
+              className={({ isActive }) =>
+                `text-center nav-link${isActive ? ' active' : ''}`
+              }
+              to="/about" href="#pricing"
+            >
+              About
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

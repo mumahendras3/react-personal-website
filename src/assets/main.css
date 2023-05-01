@@ -18,3 +18,7 @@
   height: 25vh;
   width: 2px;
 }
+
+.project-card-gap {
+  row-gap: 1.5rem;
+}

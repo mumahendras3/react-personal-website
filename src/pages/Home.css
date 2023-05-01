@@ -18,25 +18,3 @@
   height: 25vh;
   width: 2px;
 }
-
-.portfolio-divider {
-  height: 2px;
-  margin: 2rem 0;
-}
-
-.portfolio-divider-lg {
-  height: 100%;
-  width: 2px;
-}
-
-.project-card-gap {
-  row-gap: 1.5rem;
-}
-
-.description {
-  text-align: justify;
-}
-
-.contact-logo {
-  text-decoration: none;
-}

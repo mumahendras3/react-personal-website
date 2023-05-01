@@ -29,6 +29,26 @@
   width: 2px;
 }
 
+.project-card {
+  height: 100%;
+  transition: box-shadow .4s;
+}
+
+.project-card:hover {
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .35);
+}
+
+.project-card-anchor {
+  color: inherit;
+  text-decoration: inherit;
+  height: 100%;
+}
+
+.project-card-anchor:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
 .project-card-gap {
   row-gap: 1.5rem;
 }
@@ -39,4 +59,8 @@
 
 .contact-logo {
   text-decoration: none;
+}
+
+.clickable-card:hover {
+  cursor: pointer;
 }

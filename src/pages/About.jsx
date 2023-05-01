@@ -69,17 +69,17 @@ export default function About() {
       <Row className="justify-content-center">
         <h2 className='headline text-center mb-3'>Contact Me</h2>
         <Col xs="auto" className="text-center">
-          <a target='_blank' href="mailto:mumahendras3@gmail.com" className="contact-logo text-white fs-2">
+          <a target='_blank' href="mailto:mumahendras3@gmail.com" className="contact-logo text-white fs-2" rel="noreferrer">
             <i className="bi bi-envelope-fill"></i>
           </a>
         </Col>
         <Col xs="auto" className="text-center">
-          <a target='_blank' href="https://linkedin.com/in/mumahendras3" className="contact-logo text-white fs-2">
+          <a target='_blank' href="https://linkedin.com/in/mumahendras3" className="contact-logo text-white fs-2" rel="noreferrer">
             <i className="bi bi-linkedin"></i>
           </a>
         </Col>
         <Col xs="auto" className="text-center">
-          <a target='_blank' href="https://github.com/mumahendras3" className="contact-logo text-white fs-2">
+          <a target='_blank' href="https://github.com/mumahendras3" className="contact-logo text-white fs-2" rel="noreferrer">
             <i className="bi bi-github"></i>
           </a>
         </Col>

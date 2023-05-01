@@ -7,9 +7,9 @@ const logoSideDimension = 55;
 
 export default function MainNavbar() {
   return (
-    <Navbar bg="dark" variant="dark" expand="sm">
+    <Navbar bg="dark" variant="dark" expand="sm" sticky='top'>
       <Container fluid>
-        <Navbar.Brand href="#home">
+        <Navbar.Brand as={NavLink} to="/">
           <img
             src="/personal-logo-web.png"
             width={logoSideDimension}
